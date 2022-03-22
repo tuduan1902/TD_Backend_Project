@@ -1,8 +1,26 @@
 {
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuduan1902/TD_Backend_Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuduan1902/TD_Backend_Project/issues"
+  },
+  "homepage": "https://github.com/tuduan1902/TD_Backend_Project#readme",
   "dependencies": {
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
     "mongoose": "^6.2.7",
-    "multer": "^1.4.4"
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.15"
   }
 }
